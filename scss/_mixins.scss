@@ -1,0 +1,13 @@
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @mixin bento-style {
+    background-color: $color-bg-bento;
+    border: 1px solid $color-stroke;
+    border-radius: $radius;
+    padding: 20px;
+  }
+  
